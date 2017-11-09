@@ -1,0 +1,45 @@
+* {
+    text-align: center;
+    background: rgba(194, 241, 22, 0.712);
+}
+
+.zoo {
+    column-count: 3;
+    column-width: 30%;
+    display: inline-block;
+    padding: 140px;
+    box-sizing: border-box;
+
+}
+
+.animal {
+    width: 300px;
+    height: 300px;
+    margin: 0;
+    padding: 10px 0;
+    max-width: 100%;
+}
+
+.negative-colors {
+    filter: sepia(1);
+    -ms-filter: sepia(1);
+    -moz-filter: sepia(1);
+    -o-filter: sepia(1);
+    -webkit-filter: sepia(1);
+}
+
+.sepia {
+    filter: sepia(1);
+    -webkit-filter: sepia(1);
+    -moz-filter: sepia(1);
+    -o-filter: sepia(1);
+    -ms-filter: sepia(1);
+}
+
+.white-black {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+}
