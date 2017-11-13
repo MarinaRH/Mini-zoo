@@ -12,7 +12,7 @@
 
 }
 
-.animal {
+.animales {
     width: 300px;
     height: 300px;
     margin: 0;
@@ -21,11 +21,11 @@
 }
 
 .negative-colors {
-    filter: sepia(1);
-    -ms-filter: sepia(1);
-    -moz-filter: sepia(1);
-    -o-filter: sepia(1);
-    -webkit-filter: sepia(1);
+    filter: invert(1);
+    -ms-filter: invert(1);
+    -moz-filter: invert(1);
+    -o-filter: invert(1);
+    -webkit-filter: invert(1);
 }
 
 .sepia {
