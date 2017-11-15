@@ -57,5 +57,6 @@ select.onchange = function() {
             image[i].classList.remove('sepia');
         }
     }
-}
-*/
+}*/
+
+
